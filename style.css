@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-image: url(./assets/img/background_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.mg-14px{
+    margin-top: 14px;
+}
+
+.fnt-size-30px{
+    font-size: 30px;
+}
+
+.fnt-size-20px{
+    font-size: 20px;
+}
+
+.digitarNome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digitarNome label{
+    border-bottom: solid 2px white;
+    border-right: solid 2px white;;
+    padding-right: 10px;
+}
+
+.digitarNome input{
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px white;
+}
+
+.digitarNome button{
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(78, 66, 150);
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px white;
+    cursor: pointer;
+}
+
+.digitarNome button:hover{
+    background-color: rgb(43, 33, 97);
+    transition: 0.3s;
+}
+
+.info{
+    background-color: rgb(78, 66, 150);
+    box-shadow: 5px 5px 10px white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 30px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.acoes{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acoes button{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: rgb(78, 66, 150);
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 10px white;
+    cursor: pointer;
+}
+
+.acoes button:hover{
+    background-color: rgb(43, 33, 97);
+    transition: 0.3s;
+}
+
+
+table{
+    position: absolute;
+    bottom: 80%;
+    left: 68%;
+    background-color: rgba(79, 66, 150, 0.815);
+}
+
+table td{
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+#mensagem{
+    position: absolute;
+    top: 35%;
+}
+
+.calcularVida{
+    position: absolute;
+    bottom: 85%;
+    right: 92%;
+}
+
+i{
+    font-size: 80px;
+    color: red;
+}
+
+#vida{
+    position: absolute;
+    right: 20px;
+    top: 23px;
+}
